@@ -111,6 +111,16 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "NajBlockaddition",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naj_blockaddition",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
