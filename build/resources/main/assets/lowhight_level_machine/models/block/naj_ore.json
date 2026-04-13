@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "lowhight_level_machine:block/naj_ore",
-    "particle": "lowhight_level_machine:block/naj_ore"
-  },
-  "render_type": "solid"
-}
