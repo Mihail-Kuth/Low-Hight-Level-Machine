@@ -1,6 +1,7 @@
-/.eclipse/
-/.gradle/
-/.mcreator/
-/build/
-/run/
-/gradle/
+/.eclipse
+/.gradle
+/.mcreator
+/build
+/run
+/gradle
+/elements
