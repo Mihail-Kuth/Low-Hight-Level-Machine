@@ -1,0 +1,192 @@
+{
+  "mod_elements": [
+    {
+      "name": "TABICOITEM",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tabicoitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kuth/lhlm/item/TABICOITEMItem.java",
+          "src/main/resources/assets/lowhight_level_machine/models/item/tabicoitem.json",
+          "src/main/resources/assets/lowhight_level_machine/items/tabicoitem.json",
+          "src/main/resources/assets/lowhight_level_machine/models/item/tabicoitem_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "CreativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Naj",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naj",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lowhight_level_machine/items/naj.json",
+          "src/main/java/net/kuth/lhlm/item/NajItem.java",
+          "src/main/resources/assets/lowhight_level_machine/models/item/naj.json"
+        ]
+      }
+    },
+    {
+      "name": "NajOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naj_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lowhight_level_machine/models/block/naj_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/models/item/naj_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/blockstates/naj_ore.json",
+          "src/main/java/net/kuth/lhlm/block/NajOreBlock.java",
+          "src/main/resources/data/lowhight_level_machine/worldgen/placed_feature/naj_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/items/naj_ore.json",
+          "src/main/resources/data/lowhight_level_machine/worldgen/configured_feature/naj_ore.json",
+          "src/main/resources/data/lowhight_level_machine/neoforge/biome_modifier/naj_ore_biome_modifier.json",
+          "src/main/resources/data/lowhight_level_machine/loot_table/blocks/naj_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "NajBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naj_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/loot_table/blocks/naj_block.json",
+          "src/main/java/net/kuth/lhlm/block/NajBlockBlock.java",
+          "src/main/resources/assets/lowhight_level_machine/models/block/naj_block.json",
+          "src/main/resources/assets/lowhight_level_machine/models/item/naj_block.json",
+          "src/main/resources/assets/lowhight_level_machine/blockstates/naj_block.json",
+          "src/main/resources/assets/lowhight_level_machine/items/naj_block.json"
+        ]
+      }
+    },
+    {
+      "name": "NajOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naj_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/recipe/naj_ore_block_recipe.json",
+          "src/main/resources/data/lowhight_level_machine/advancement/recipes/naj_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NajBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naj_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/recipe/naj_block_ore_recipe.json",
+          "src/main/resources/data/lowhight_level_machine/advancement/recipes/naj_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NajOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naj_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/advancement/recipes/naj_ore_smelting.json",
+          "src/main/resources/data/lowhight_level_machine/recipe/naj_ore_smelting.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:NajBlock",
+      "~CUSTOM:NajOre"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:NajBlock",
+      "~CUSTOM:NajOre"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.lowhight_level_machine.tabicoitem": "TABICOITEM",
+      "item_group.lowhight_level_machine.creative_tab": "Low-Hight Level Machine",
+      "item.lowhight_level_machine.naj": "Naj",
+      "item.lowhight_level_machine.naj_ore": "Naj Ore",
+      "item.lowhight_level_machine.naj_block": "Block of Naj"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/kuth/lhlm/init/LowhightLevelMachineModBrewingRecipes.java",
+      "src/main/java/net/kuth/lhlm/init/LowhightLevelMachineModBlocks.java",
+      "src/main/java/net/kuth/lhlm/init/LowhightLevelMachineModItems.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/kuth/lhlm/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/net/kuth/lhlm/init/LowhightLevelMachineModRenderStateModifiers.java",
+      "src/main/java/net/kuth/lhlm/network/PlayPlayerAnimationMessage.java",
+      "src/main/java/net/kuth/lhlm/mixin/CameraAccessor.java",
+      "src/main/java/net/kuth/lhlm/mixin/LivingEntityRendererMixin.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/kuth/lhlm/mixin/PlayerAnimationMixin.java",
+      "src/main/java/net/kuth/lhlm/mixin/PlayerAnimationRendererMixin.java",
+      "src/main/java/net/kuth/lhlm/LowhightLevelMachineMod.java",
+      "src/main/java/net/kuth/lhlm/mixin/ItemInHandLayerMixin.java",
+      "src/main/java/net/kuth/lhlm/client/ItemArms.java",
+      "src/main/java/net/kuth/lhlm/mixin/LevelRendererMixin.java",
+      "src/main/java/net/kuth/lhlm/client/RenderUtils.java",
+      "src/main/java/net/kuth/lhlm/mixin/EntityRenderDispatcherMixin.java",
+      "src/main/resources/lowhight_level_machine.mixins.json",
+      "src/main/java/net/kuth/lhlm/LowhightLevelMachineModPlayerAnimationAPI.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/kuth/lhlm/init/LowhightLevelMachineModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "lowhight_level_machine",
+    "modName": "Low-Hight Level Machine",
+    "version": "0.0.1",
+    "description": "Simple industrial mod, provides development opportunities in EFFICIENCY or SPEED machines while maintaining the vanilla look of minecraft",
+    "author": "Mihail_Kuth",
+    "websiteURL": "https://github.com/Mihail-Kuth",
+    "license": "GNU Lesser General Public License version 2.1 (LGPLv2.1)",
+    "serverSideOnly": false,
+    "modPicture": "mod_ico",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "MCreator",
+    "modElementsPackage": "net.kuth.lhlm"
+  },
+  "mcreatorVersion": 202600114619
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "lowhight_level_machine:naj_block"
+  ],
+  "result": {
+    "id": "lowhight_level_machine:naj",
+    "count": 9
+  }
+}

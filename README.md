@@ -1,13 +1,14 @@
 # Low-Hight-Level-Machine
 
-Simple industrial mod, provides development opportunities in EFFICIENCY or SPEED machines while maintaining the vanilla look of minecraft
+Simple industrial mod, provides development opportunities in EFFICIENCY or SPEED machines while maintaining the vanilla look of minecraft. The mod also tries to be as Vanilla-like as possible, fitting well into a simple minecraft, keeping between uniqueness and harmony.
 
 
 
 ### Support Versions:
 
-|Work In Progress - Now|1.21.8|
+|Mod Version|Minecraft version|
 |-|-|
+|Work In Progress - Now|1.21.8|
 
 
 
@@ -15,7 +16,7 @@ Simple industrial mod, provides development opportunities in EFFICIENCY or SPEED
 
 
 
-1. Ore(0% complete)
+1. Ore(15% complete)
 2. Basic Craft Items(0% complete)
 3. Machines(0% complete)
 4. Others Items(0% complete)
@@ -23,6 +24,7 @@ Simple industrial mod, provides development opportunities in EFFICIENCY or SPEED
 
 
 Credits:
+
 
 
 [Mcreator](https://mcreator.net) - Lightweight and simple mod creation program

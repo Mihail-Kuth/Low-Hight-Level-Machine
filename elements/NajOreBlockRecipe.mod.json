@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Naj"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Naj"
+      },
+      {
+        "value": "CUSTOM:Naj"
+      },
+      {
+        "value": "CUSTOM:Naj"
+      },
+      {
+        "value": "CUSTOM:Naj"
+      },
+      {
+        "value": "CUSTOM:Naj"
+      },
+      {
+        "value": "CUSTOM:Naj"
+      },
+      {
+        "value": "CUSTOM:Naj"
+      },
+      {
+        "value": "CUSTOM:Naj"
+      },
+      {
+        "value": "CUSTOM:Naj"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NajBlock"
+    },
+    "name": "naj_ore_block_recipe",
+    "namespace": "mod"
+  }
+}
