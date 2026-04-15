@@ -1,7 +1,8 @@
 {
   "replace": false,
   "values": [
+    "lowhight_level_machine:serbo_ore",
     "lowhight_level_machine:naj_ore",
-    "lowhight_level_machine:naj_block"
+    "lowhight_level_machine:bonz_ore"
   ]
 }

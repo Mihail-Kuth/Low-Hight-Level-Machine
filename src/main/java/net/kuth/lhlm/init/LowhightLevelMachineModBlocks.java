@@ -9,8 +9,9 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
+import net.kuth.lhlm.block.SerboOreBlock;
 import net.kuth.lhlm.block.NajOreBlock;
-import net.kuth.lhlm.block.NajBlockBlock;
+import net.kuth.lhlm.block.BonzOreBlock;
 import net.kuth.lhlm.LowhightLevelMachineMod;
 
 import java.util.function.Function;
@@ -18,10 +19,12 @@ import java.util.function.Function;
 public class LowhightLevelMachineModBlocks {
 	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(LowhightLevelMachineMod.MODID);
 	public static final DeferredBlock<Block> NAJ_ORE;
-	public static final DeferredBlock<Block> NAJ_BLOCK;
+	public static final DeferredBlock<Block> SERBO_ORE;
+	public static final DeferredBlock<Block> BONZ_ORE;
 	static {
 		NAJ_ORE = register("naj_ore", NajOreBlock::new);
-		NAJ_BLOCK = register("naj_block", NajBlockBlock::new);
+		SERBO_ORE = register("serbo_ore", SerboOreBlock::new);
+		BONZ_ORE = register("bonz_ore", BonzOreBlock::new);
 	}
 
 	// Start of user code block custom blocks

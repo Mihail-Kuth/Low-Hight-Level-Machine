@@ -16,7 +16,5 @@ public class LowhightLevelMachineModFuels {
 		ItemStack itemstack = event.getItemStack();
 		if (itemstack.getItem() == LowhightLevelMachineModItems.NAJ.get())
 			event.setBurnTime(50000);
-		else if (itemstack.getItem() == LowhightLevelMachineModBlocks.NAJ_BLOCK.get().asItem())
-			event.setBurnTime(450000);
 	}
 }

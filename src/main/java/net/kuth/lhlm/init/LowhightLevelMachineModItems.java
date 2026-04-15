@@ -12,7 +12,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.kuth.lhlm.item.TABICOITEMItem;
+import net.kuth.lhlm.item.SerboIngotItem;
 import net.kuth.lhlm.item.NajItem;
+import net.kuth.lhlm.item.BonzIngotItem;
 import net.kuth.lhlm.LowhightLevelMachineMod;
 
 import java.util.function.Function;
@@ -22,12 +24,18 @@ public class LowhightLevelMachineModItems {
 	public static final DeferredItem<Item> TABICOITEM;
 	public static final DeferredItem<Item> NAJ;
 	public static final DeferredItem<Item> NAJ_ORE;
-	public static final DeferredItem<Item> NAJ_BLOCK;
+	public static final DeferredItem<Item> SERBO_INGOT;
+	public static final DeferredItem<Item> SERBO_ORE;
+	public static final DeferredItem<Item> BONZ_INGOT;
+	public static final DeferredItem<Item> BONZ_ORE;
 	static {
 		TABICOITEM = register("tabicoitem", TABICOITEMItem::new);
 		NAJ = register("naj", NajItem::new);
 		NAJ_ORE = block(LowhightLevelMachineModBlocks.NAJ_ORE);
-		NAJ_BLOCK = block(LowhightLevelMachineModBlocks.NAJ_BLOCK);
+		SERBO_INGOT = register("serbo_ingot", SerboIngotItem::new);
+		SERBO_ORE = block(LowhightLevelMachineModBlocks.SERBO_ORE);
+		BONZ_INGOT = register("bonz_ingot", BonzIngotItem::new);
+		BONZ_ORE = block(LowhightLevelMachineModBlocks.BONZ_ORE);
 	}
 
 	// Start of user code block custom items

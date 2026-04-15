@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "lowhight_level_machine:naj_block"
+    "lowhight_level_machine:deleted_mod_element"
   ],
   "result": {
     "id": "lowhight_level_machine:naj",

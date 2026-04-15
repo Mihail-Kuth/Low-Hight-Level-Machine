@@ -60,49 +60,6 @@
       }
     },
     {
-      "name": "NajBlock",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "naj_block",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/lowhight_level_machine/loot_table/blocks/naj_block.json",
-          "src/main/java/net/kuth/lhlm/block/NajBlockBlock.java",
-          "src/main/resources/assets/lowhight_level_machine/models/block/naj_block.json",
-          "src/main/resources/assets/lowhight_level_machine/models/item/naj_block.json",
-          "src/main/resources/assets/lowhight_level_machine/blockstates/naj_block.json",
-          "src/main/resources/assets/lowhight_level_machine/items/naj_block.json"
-        ]
-      }
-    },
-    {
-      "name": "NajOreBlockRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "naj_ore_block_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/lowhight_level_machine/recipe/naj_ore_block_recipe.json",
-          "src/main/resources/data/lowhight_level_machine/advancement/recipes/naj_ore_block_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "NajBlockOreRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "naj_block_ore_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/lowhight_level_machine/recipe/naj_block_ore_recipe.json",
-          "src/main/resources/data/lowhight_level_machine/advancement/recipes/naj_block_ore_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "Najaddition",
       "type": "itemextension",
       "compiles": true,
@@ -113,13 +70,71 @@
       }
     },
     {
-      "name": "NajBlockaddition",
-      "type": "itemextension",
+      "name": "SerboIngot",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "naj_blockaddition",
+      "registry_name": "serbo_ingot",
       "metadata": {
-        "files": []
+        "files": [
+          "src/main/resources/assets/lowhight_level_machine/items/serbo_ingot.json",
+          "src/main/resources/assets/lowhight_level_machine/models/item/serbo_ingot.json",
+          "src/main/java/net/kuth/lhlm/item/SerboIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SerboOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serbo_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lowhight_level_machine/items/serbo_ore.json",
+          "src/main/resources/data/lowhight_level_machine/neoforge/biome_modifier/serbo_ore_biome_modifier.json",
+          "src/main/resources/data/lowhight_level_machine/worldgen/placed_feature/serbo_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/models/item/serbo_ore.json",
+          "src/main/resources/data/lowhight_level_machine/worldgen/configured_feature/serbo_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/blockstates/serbo_ore.json",
+          "src/main/java/net/kuth/lhlm/block/SerboOreBlock.java",
+          "src/main/resources/assets/lowhight_level_machine/models/block/serbo_ore.json",
+          "src/main/resources/data/lowhight_level_machine/loot_table/blocks/serbo_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "BonzIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonz_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lowhight_level_machine/items/bonz_ingot.json",
+          "src/main/java/net/kuth/lhlm/item/BonzIngotItem.java",
+          "src/main/resources/assets/lowhight_level_machine/models/item/bonz_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "BonzOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonz_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lowhight_level_machine/items/bonz_ore.json",
+          "src/main/resources/data/lowhight_level_machine/worldgen/placed_feature/bonz_ore.json",
+          "src/main/resources/data/lowhight_level_machine/worldgen/configured_feature/bonz_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/models/item/bonz_ore.json",
+          "src/main/resources/data/lowhight_level_machine/neoforge/biome_modifier/bonz_ore_biome_modifier.json",
+          "src/main/resources/data/lowhight_level_machine/loot_table/blocks/bonz_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/blockstates/bonz_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/models/block/bonz_ore.json",
+          "src/main/java/net/kuth/lhlm/block/BonzOreBlock.java"
+        ]
       }
     }
   ],
@@ -127,14 +142,18 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:NajBlock",
+      "~CUSTOM:BonzOre",
+      "~CUSTOM:SerboOre",
       "~CUSTOM:NajOre"
-    ],
-    "BLOCKS:minecraft:needs_stone_tool": [
-      "~CUSTOM:NajBlock"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:NajOre"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:SerboOre"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:BonzOre"
     ]
   },
   "tab_element_order": {},
@@ -144,13 +163,16 @@
       "item_group.lowhight_level_machine.creative_tab": "Low-Hight Level Machine",
       "item.lowhight_level_machine.naj": "Naj",
       "item.lowhight_level_machine.naj_ore": "Naj Ore",
-      "item.lowhight_level_machine.naj_block": "Block of Naj"
+      "item.lowhight_level_machine.naj_block": "Block of Naj",
+      "item.lowhight_level_machine.serbo_ingot": "Serbo",
+      "item.lowhight_level_machine.serbo_ore": "Serbo Ore",
+      "item.lowhight_level_machine.bonz_ingot": "Bonz",
+      "item.lowhight_level_machine.bonz_ore": "Bonz Ore"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/kuth/lhlm/init/LowhightLevelMachineModFuels.java",
-      "src/main/java/net/kuth/lhlm/init/LowhightLevelMachineModBrewingRecipes.java",
       "src/main/java/net/kuth/lhlm/init/LowhightLevelMachineModBlocks.java",
       "src/main/java/net/kuth/lhlm/init/LowhightLevelMachineModItems.java",
       "src/main/resources/META-INF/neoforge.mods.toml",

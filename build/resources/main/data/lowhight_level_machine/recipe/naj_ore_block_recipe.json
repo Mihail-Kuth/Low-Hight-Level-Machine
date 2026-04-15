@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "lowhight_level_machine:naj"
+  },
+  "result": {
+    "id": "lowhight_level_machine:deleted_mod_element",
+    "count": 1
+  }
+}
