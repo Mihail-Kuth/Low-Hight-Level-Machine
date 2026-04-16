@@ -1,0 +1,11 @@
+{
+  "_fv": 85,
+  "_type": "tab",
+  "definition": {
+    "name": "Low-Hight Level Machine",
+    "icon": {
+      "value": "CUSTOM:TABICOITEM"
+    },
+    "showSearch": true
+  }
+}

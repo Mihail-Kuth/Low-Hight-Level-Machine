@@ -1,9 +1,5 @@
 repositories {
   maven {
-    name = "Progwml6's maven"
-    url = "https://dvs1.progwml6.com/files/maven/"
-  }
-  maven {
     name = "Jared's maven"
     url = "https://maven.blamejared.com/"
   }
@@ -11,12 +7,12 @@ repositories {
     name = "ModMaven"
     url = "https://modmaven.dev"
   }
-}
 
-dependencies {
-    compileOnly("mezz.jei:jei-1.21.8-common-api:24.2.0.6")
-    compileOnly("mezz.jei:jei-1.21.8-neoforge-api:24.2.0.6")
-    runtimeOnly("mezz.jei:jei-1.21.8-neoforge:24.2.0.6")
+  dependencies {
+      compileOnly("mezz.jei:jei-1.21.8-common-api:24.2.0.6")
+      compileOnly("mezz.jei:jei-1.21.8-neoforge-api:24.2.0.6")
+      runtimeOnly("mezz.jei:jei-1.21.8-neoforge:24.2.0.6")
+  }
 }
 
 
