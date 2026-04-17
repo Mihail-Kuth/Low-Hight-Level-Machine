@@ -136,17 +136,66 @@
           "src/main/java/net/kuth/lhlm/block/BonzOreBlock.java"
         ]
       }
+    },
+    {
+      "name": "XrinIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xrin_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kuth/lhlm/item/XrinIngotItem.java",
+          "src/main/resources/assets/lowhight_level_machine/models/item/xrin_ingot.json",
+          "src/main/resources/assets/lowhight_level_machine/items/xrin_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "XrinOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xrin_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kuth/lhlm/block/XrinOreBlock.java",
+          "src/main/resources/data/lowhight_level_machine/loot_table/blocks/xrin_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/blockstates/xrin_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/models/block/xrin_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/items/xrin_ore.json",
+          "src/main/resources/data/lowhight_level_machine/neoforge/biome_modifier/xrin_ore_biome_modifier.json",
+          "src/main/resources/data/lowhight_level_machine/worldgen/configured_feature/xrin_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/models/item/xrin_ore.json",
+          "src/main/resources/data/lowhight_level_machine/worldgen/placed_feature/xrin_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "XrinOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xrin_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/advancement/recipes/xrin_ore_smelting.json",
+          "src/main/resources/data/lowhight_level_machine/recipe/xrin_ore_smelting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:XrinOre",
       "~CUSTOM:BonzOre",
       "~CUSTOM:SerboOre",
       "~CUSTOM:NajOre"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:XrinOre",
       "~CUSTOM:NajOre"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
@@ -167,7 +216,9 @@
       "item.lowhight_level_machine.serbo_ingot": "Serbo",
       "item.lowhight_level_machine.serbo_ore": "Serbo Ore",
       "item.lowhight_level_machine.bonz_ingot": "Bonz",
-      "item.lowhight_level_machine.bonz_ore": "Bonz Ore"
+      "item.lowhight_level_machine.bonz_ore": "Bonz Ore",
+      "item.lowhight_level_machine.xrin_ingot": "Xrin",
+      "item.lowhight_level_machine.xrin_ore": "Xrin Ore"
     }
   },
   "metadata": {

@@ -32,8 +32,10 @@ public class LowhightLevelMachineModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(LowhightLevelMachineModItems.BONZ_INGOT.get());
+			tabData.accept(LowhightLevelMachineModItems.XRIN_INGOT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(LowhightLevelMachineModBlocks.BONZ_ORE.get().asItem());
+			tabData.accept(LowhightLevelMachineModBlocks.XRIN_ORE.get().asItem());
 		}
 	}
 }

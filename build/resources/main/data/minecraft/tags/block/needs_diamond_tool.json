@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "lowhight_level_machine:xrin_ore",
     "lowhight_level_machine:naj_ore"
   ]
 }
