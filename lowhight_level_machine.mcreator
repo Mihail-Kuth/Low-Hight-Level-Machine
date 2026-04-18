@@ -183,6 +183,32 @@
           "src/main/resources/data/lowhight_level_machine/recipe/xrin_ore_smelting.json"
         ]
       }
+    },
+    {
+      "name": "Sercorepice",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sercorepice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/advancement/recipes/sercorepice.json",
+          "src/main/resources/data/lowhight_level_machine/recipe/sercorepice.json"
+        ]
+      }
+    },
+    {
+      "name": "Bonzrepice",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonzrepice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/recipe/bonzrepice.json",
+          "src/main/resources/data/lowhight_level_machine/advancement/recipes/bonzrepice.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

@@ -13,7 +13,7 @@
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "MATERIALS"
+        "value": "CUSTOM:CreativeTab"
       }
     ],
     "stackSize": 64,

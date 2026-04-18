@@ -8,7 +8,7 @@ Simple industrial mod, provides development opportunities in EFFICIENCY or SPEED
 
 |Mod Version|Minecraft version|
 |-|-|
-|Work In Progress - Now|1.21.8|
+|0.0.1 - Now|1.21.8|
 
 
 
