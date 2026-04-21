@@ -1,0 +1,27 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:FligBlock"
+      }
+    ],
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 1.0,
+    "cookingTime": 5000,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:FligDust"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:FligGlass"
+    },
+    "name": "fligglassrepice",
+    "namespace": "mod"
+  }
+}

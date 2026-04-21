@@ -9,10 +9,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
-import net.kuth.lhlm.block.XrinOreBlock;
-import net.kuth.lhlm.block.SerboOreBlock;
-import net.kuth.lhlm.block.NajOreBlock;
-import net.kuth.lhlm.block.BonzOreBlock;
+import net.kuth.lhlm.block.*;
 import net.kuth.lhlm.LowhightLevelMachineMod;
 
 import java.util.function.Function;
@@ -23,11 +20,15 @@ public class LowhightLevelMachineModBlocks {
 	public static final DeferredBlock<Block> SERBO_ORE;
 	public static final DeferredBlock<Block> BONZ_ORE;
 	public static final DeferredBlock<Block> XRIN_ORE;
+	public static final DeferredBlock<Block> FLIG_ORE;
+	public static final DeferredBlock<Block> FLIG_BLOCK;
 	static {
 		NAJ_ORE = register("naj_ore", NajOreBlock::new);
 		SERBO_ORE = register("serbo_ore", SerboOreBlock::new);
 		BONZ_ORE = register("bonz_ore", BonzOreBlock::new);
 		XRIN_ORE = register("xrin_ore", XrinOreBlock::new);
+		FLIG_ORE = register("flig_ore", FligOreBlock::new);
+		FLIG_BLOCK = register("flig_block", FligBlockBlock::new);
 	}
 
 	// Start of user code block custom blocks

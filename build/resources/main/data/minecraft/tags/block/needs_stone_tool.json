@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "lowhight_level_machine:flig_block",
+    "lowhight_level_machine:flig_ore",
     "lowhight_level_machine:bonz_ore"
   ]
 }

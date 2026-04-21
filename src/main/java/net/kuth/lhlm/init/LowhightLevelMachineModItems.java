@@ -11,11 +11,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.kuth.lhlm.item.XrinIngotItem;
-import net.kuth.lhlm.item.TABICOITEMItem;
-import net.kuth.lhlm.item.SerboIngotItem;
-import net.kuth.lhlm.item.NajItem;
-import net.kuth.lhlm.item.BonzIngotItem;
+import net.kuth.lhlm.item.*;
 import net.kuth.lhlm.LowhightLevelMachineMod;
 
 import java.util.function.Function;
@@ -31,6 +27,10 @@ public class LowhightLevelMachineModItems {
 	public static final DeferredItem<Item> BONZ_ORE;
 	public static final DeferredItem<Item> XRIN_INGOT;
 	public static final DeferredItem<Item> XRIN_ORE;
+	public static final DeferredItem<Item> FLIG_DUST;
+	public static final DeferredItem<Item> FLIG_ORE;
+	public static final DeferredItem<Item> FLIG_BLOCK;
+	public static final DeferredItem<Item> FLIG_GLASS;
 	static {
 		TABICOITEM = register("tabicoitem", TABICOITEMItem::new);
 		NAJ = register("naj", NajItem::new);
@@ -41,6 +41,10 @@ public class LowhightLevelMachineModItems {
 		BONZ_ORE = block(LowhightLevelMachineModBlocks.BONZ_ORE);
 		XRIN_INGOT = register("xrin_ingot", XrinIngotItem::new);
 		XRIN_ORE = block(LowhightLevelMachineModBlocks.XRIN_ORE);
+		FLIG_DUST = register("flig_dust", FligDustItem::new);
+		FLIG_ORE = block(LowhightLevelMachineModBlocks.FLIG_ORE);
+		FLIG_BLOCK = block(LowhightLevelMachineModBlocks.FLIG_BLOCK);
+		FLIG_GLASS = register("flig_glass", FligGlassItem::new);
 	}
 
 	// Start of user code block custom items

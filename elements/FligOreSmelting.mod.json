@@ -1,0 +1,59 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:FligOre"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.27999999999999997,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": ""
+    },
+    "smeltingInputStack": {
+      "value": "CUSTOM:FligOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:FligDust"
+    },
+    "name": "flig_ore_smelting",
+    "namespace": "mod"
+  }
+}

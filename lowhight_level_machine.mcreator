@@ -209,12 +209,135 @@
           "src/main/resources/data/lowhight_level_machine/advancement/recipes/bonzrepice.json"
         ]
       }
+    },
+    {
+      "name": "FligDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flig_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lowhight_level_machine/items/flig_dust.json",
+          "src/main/resources/assets/lowhight_level_machine/models/item/flig_dust.json",
+          "src/main/java/net/kuth/lhlm/item/FligDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FligOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flig_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/loot_table/blocks/flig_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/models/block/flig_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/models/item/flig_ore.json",
+          "src/main/resources/data/lowhight_level_machine/worldgen/placed_feature/flig_ore.json",
+          "src/main/resources/data/lowhight_level_machine/worldgen/configured_feature/flig_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/blockstates/flig_ore.json",
+          "src/main/resources/data/lowhight_level_machine/neoforge/biome_modifier/flig_ore_biome_modifier.json",
+          "src/main/resources/assets/lowhight_level_machine/items/flig_ore.json",
+          "src/main/java/net/kuth/lhlm/block/FligOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "FligBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flig_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lowhight_level_machine/models/item/flig_block.json",
+          "src/main/resources/assets/lowhight_level_machine/models/block/flig_block_side_alt.json",
+          "src/main/resources/assets/lowhight_level_machine/models/block/flig_block_noside.json",
+          "src/main/resources/assets/lowhight_level_machine/models/block/flig_block_noside_alt.json",
+          "src/main/java/net/kuth/lhlm/block/FligBlockBlock.java",
+          "src/main/resources/data/lowhight_level_machine/loot_table/blocks/flig_block.json",
+          "src/main/resources/assets/lowhight_level_machine/models/block/flig_block_post.json",
+          "src/main/resources/assets/lowhight_level_machine/blockstates/flig_block.json",
+          "src/main/resources/assets/lowhight_level_machine/models/block/flig_block_side.json",
+          "src/main/resources/assets/lowhight_level_machine/items/flig_block.json"
+        ]
+      }
+    },
+    {
+      "name": "FligOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flig_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/advancement/recipes/flig_ore_block_recipe.json",
+          "src/main/resources/data/lowhight_level_machine/recipe/flig_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FligBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flig_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/recipe/flig_block_ore_recipe.json",
+          "src/main/resources/data/lowhight_level_machine/advancement/recipes/flig_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FligOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flig_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/advancement/recipes/flig_ore_smelting.json",
+          "src/main/resources/data/lowhight_level_machine/recipe/flig_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "FligGlass",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flig_glass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kuth/lhlm/item/FligGlassItem.java",
+          "src/main/resources/assets/lowhight_level_machine/models/item/flig_glass.json",
+          "src/main/resources/assets/lowhight_level_machine/items/flig_glass.json"
+        ]
+      }
+    },
+    {
+      "name": "Fligglassrepice",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fligglassrepice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/advancement/recipes/fligglassrepice.json",
+          "src/main/resources/data/lowhight_level_machine/recipe/fligglassrepice.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:FligBlock",
+      "~CUSTOM:FligOre",
       "~CUSTOM:XrinOre",
       "~CUSTOM:BonzOre",
       "~CUSTOM:SerboOre",
@@ -228,6 +351,8 @@
       "~CUSTOM:SerboOre"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:FligBlock",
+      "~CUSTOM:FligOre",
       "~CUSTOM:BonzOre"
     ]
   },
@@ -244,7 +369,11 @@
       "item.lowhight_level_machine.bonz_ingot": "Bonz",
       "item.lowhight_level_machine.bonz_ore": "Bonz Ore",
       "item.lowhight_level_machine.xrin_ingot": "Xrin",
-      "item.lowhight_level_machine.xrin_ore": "Xrin Ore"
+      "item.lowhight_level_machine.xrin_ore": "Xrin Ore",
+      "item.lowhight_level_machine.flig_dust": "Flig",
+      "item.lowhight_level_machine.flig_ore": "Flig Ore",
+      "item.lowhight_level_machine.flig_block": "Block of Flig",
+      "item.lowhight_level_machine.flig_glass": "Flig Glass"
     }
   },
   "metadata": {

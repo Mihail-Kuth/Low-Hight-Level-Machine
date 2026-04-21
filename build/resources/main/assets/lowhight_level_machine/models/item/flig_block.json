@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lowhight_level_machine:block/fligglass"
+  },
+  "render_type": "solid"
+}
