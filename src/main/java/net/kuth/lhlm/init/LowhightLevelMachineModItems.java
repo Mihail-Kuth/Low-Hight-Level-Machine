@@ -30,7 +30,6 @@ public class LowhightLevelMachineModItems {
 	public static final DeferredItem<Item> FLIG_DUST;
 	public static final DeferredItem<Item> FLIG_ORE;
 	public static final DeferredItem<Item> FLIG_BLOCK;
-	public static final DeferredItem<Item> FLIG_GLASS;
 	static {
 		TABICOITEM = register("tabicoitem", TABICOITEMItem::new);
 		NAJ = register("naj", NajItem::new);
@@ -44,7 +43,6 @@ public class LowhightLevelMachineModItems {
 		FLIG_DUST = register("flig_dust", FligDustItem::new);
 		FLIG_ORE = block(LowhightLevelMachineModBlocks.FLIG_ORE);
 		FLIG_BLOCK = block(LowhightLevelMachineModBlocks.FLIG_BLOCK);
-		FLIG_GLASS = register("flig_glass", FligGlassItem::new);
 	}
 
 	// Start of user code block custom items

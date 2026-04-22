@@ -6,6 +6,6 @@ import net.minecraft.world.level.block.IronBarsBlock;
 
 public class FligBlockBlock extends IronBarsBlock {
 	public FligBlockBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.METAL).strength(5f, 6f).requiresCorrectToolForDrops());
+		super(properties.sound(SoundType.METAL).strength(5f, 6f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 }

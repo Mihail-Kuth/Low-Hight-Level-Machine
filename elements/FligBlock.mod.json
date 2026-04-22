@@ -3,7 +3,7 @@
   "_type": "block",
   "definition": {
     "texture": "fligglass",
-    "textureTop": "",
+    "textureTop": "upfligglass",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
@@ -23,9 +23,9 @@
     "leavesParticleChance": 0.0,
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -56,7 +56,7 @@
         "value": "CUSTOM:CreativeTab"
       }
     ],
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -119,7 +119,7 @@
       "fixedValue": 0.0
     },
     "unbreakable": false,
-    "vanillaToolTier": "STONE",
+    "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],

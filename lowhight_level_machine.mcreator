@@ -305,20 +305,6 @@
       }
     },
     {
-      "name": "FligGlass",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flig_glass",
-      "metadata": {
-        "files": [
-          "src/main/java/net/kuth/lhlm/item/FligGlassItem.java",
-          "src/main/resources/assets/lowhight_level_machine/models/item/flig_glass.json",
-          "src/main/resources/assets/lowhight_level_machine/items/flig_glass.json"
-        ]
-      }
-    },
-    {
       "name": "Fligglassrepice",
       "type": "recipe",
       "compiles": true,
@@ -336,7 +322,6 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:FligBlock",
       "~CUSTOM:FligOre",
       "~CUSTOM:XrinOre",
       "~CUSTOM:BonzOre",
@@ -351,7 +336,6 @@
       "~CUSTOM:SerboOre"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
-      "~CUSTOM:FligBlock",
       "~CUSTOM:FligOre",
       "~CUSTOM:BonzOre"
     ]
@@ -372,8 +356,7 @@
       "item.lowhight_level_machine.xrin_ore": "Xrin Ore",
       "item.lowhight_level_machine.flig_dust": "Flig",
       "item.lowhight_level_machine.flig_ore": "Flig Ore",
-      "item.lowhight_level_machine.flig_block": "Block of Flig",
-      "item.lowhight_level_machine.flig_glass": "Flig Glass"
+      "item.lowhight_level_machine.flig_block": "Block of Flig"
     }
   },
   "metadata": {

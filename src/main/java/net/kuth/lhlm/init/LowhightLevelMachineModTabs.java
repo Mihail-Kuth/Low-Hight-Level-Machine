@@ -28,6 +28,5 @@ public class LowhightLevelMachineModTabs {
 				tabData.accept(LowhightLevelMachineModItems.FLIG_DUST.get());
 				tabData.accept(LowhightLevelMachineModBlocks.FLIG_ORE.get().asItem());
 				tabData.accept(LowhightLevelMachineModBlocks.FLIG_BLOCK.get().asItem());
-				tabData.accept(LowhightLevelMachineModItems.FLIG_GLASS.get());
 			}).withSearchBar().build());
 }

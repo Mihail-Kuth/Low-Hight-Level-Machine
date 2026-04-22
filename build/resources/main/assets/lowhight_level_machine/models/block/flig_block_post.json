@@ -3,7 +3,7 @@
   "textures": {
     "particle": "lowhight_level_machine:block/fligglass",
     "pane": "lowhight_level_machine:block/fligglass",
-    "edge": "lowhight_level_machine:block/fligglass"
+    "edge": "lowhight_level_machine:block/upfligglass"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

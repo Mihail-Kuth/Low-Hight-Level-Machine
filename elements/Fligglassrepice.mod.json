@@ -19,7 +19,7 @@
       "value": "CUSTOM:FligDust"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:FligGlass"
+      "value": "CUSTOM:FligBlock"
     },
     "name": "fligglassrepice",
     "namespace": "mod"

@@ -3,5 +3,5 @@
   "textures": {
     "layer0": "lowhight_level_machine:block/fligglass"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }
