@@ -266,32 +266,6 @@
       }
     },
     {
-      "name": "FligOreBlockRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flig_ore_block_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/lowhight_level_machine/advancement/recipes/flig_ore_block_recipe.json",
-          "src/main/resources/data/lowhight_level_machine/recipe/flig_ore_block_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "FligBlockOreRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flig_block_ore_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/lowhight_level_machine/recipe/flig_block_ore_recipe.json",
-          "src/main/resources/data/lowhight_level_machine/advancement/recipes/flig_block_ore_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "FligOreSmelting",
       "type": "recipe",
       "compiles": true,
