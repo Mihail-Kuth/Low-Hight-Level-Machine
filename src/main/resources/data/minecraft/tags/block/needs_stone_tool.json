@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "lowhight_level_machine:vigin_ore",
+    "lowhight_level_machine:vigin_block",
+    "lowhight_level_machine:selum_ore",
     "lowhight_level_machine:flig_ore",
     "lowhight_level_machine:bonz_ore"
   ]

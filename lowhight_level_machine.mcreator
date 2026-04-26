@@ -290,12 +290,152 @@
           "src/main/resources/data/lowhight_level_machine/recipe/fligglassrepice.json"
         ]
       }
+    },
+    {
+      "name": "ViginIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vigin_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kuth/lhlm/item/ViginIngotItem.java",
+          "src/main/resources/assets/lowhight_level_machine/models/item/vigin_ingot.json",
+          "src/main/resources/assets/lowhight_level_machine/items/vigin_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "ViginOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vigin_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kuth/lhlm/block/ViginOreBlock.java",
+          "src/main/resources/assets/lowhight_level_machine/blockstates/vigin_ore.json",
+          "src/main/resources/data/lowhight_level_machine/loot_table/blocks/vigin_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/models/block/vigin_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/models/item/vigin_ore.json",
+          "src/main/resources/data/lowhight_level_machine/neoforge/biome_modifier/vigin_ore_biome_modifier.json",
+          "src/main/resources/assets/lowhight_level_machine/items/vigin_ore.json",
+          "src/main/resources/data/lowhight_level_machine/worldgen/placed_feature/vigin_ore.json",
+          "src/main/resources/data/lowhight_level_machine/worldgen/configured_feature/vigin_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ViginBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vigin_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kuth/lhlm/block/ViginBlockBlock.java",
+          "src/main/resources/assets/lowhight_level_machine/models/item/vigin_block.json",
+          "src/main/resources/data/lowhight_level_machine/loot_table/blocks/vigin_block.json",
+          "src/main/resources/assets/lowhight_level_machine/blockstates/vigin_block.json",
+          "src/main/resources/assets/lowhight_level_machine/models/block/vigin_block.json",
+          "src/main/resources/assets/lowhight_level_machine/items/vigin_block.json"
+        ]
+      }
+    },
+    {
+      "name": "ViginOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vigin_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/advancement/recipes/vigin_ore_block_recipe.json",
+          "src/main/resources/data/lowhight_level_machine/recipe/vigin_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ViginBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vigin_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/recipe/vigin_block_ore_recipe.json",
+          "src/main/resources/data/lowhight_level_machine/advancement/recipes/vigin_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ViginOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vigin_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/advancement/recipes/vigin_ore_smelting.json",
+          "src/main/resources/data/lowhight_level_machine/recipe/vigin_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "SelumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "selum_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lowhight_level_machine/items/selum_ingot.json",
+          "src/main/resources/assets/lowhight_level_machine/models/item/selum_ingot.json",
+          "src/main/java/net/kuth/lhlm/item/SelumIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SelumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "selum_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lowhight_level_machine/blockstates/selum_ore.json",
+          "src/main/java/net/kuth/lhlm/block/SelumOreBlock.java",
+          "src/main/resources/assets/lowhight_level_machine/items/selum_ore.json",
+          "src/main/resources/data/lowhight_level_machine/worldgen/placed_feature/selum_ore.json",
+          "src/main/resources/data/lowhight_level_machine/worldgen/configured_feature/selum_ore.json",
+          "src/main/resources/data/lowhight_level_machine/neoforge/biome_modifier/selum_ore_biome_modifier.json",
+          "src/main/resources/data/lowhight_level_machine/loot_table/blocks/selum_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/models/item/selum_ore.json",
+          "src/main/resources/assets/lowhight_level_machine/models/block/selum_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SelumOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "selum_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/advancement/recipes/selum_ore_smelting.json",
+          "src/main/resources/data/lowhight_level_machine/recipe/selum_ore_smelting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SelumOre",
+      "~CUSTOM:ViginBlock",
+      "~CUSTOM:ViginOre",
       "~CUSTOM:FligOre",
       "~CUSTOM:XrinOre",
       "~CUSTOM:BonzOre",
@@ -310,6 +450,9 @@
       "~CUSTOM:SerboOre"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:SelumOre",
+      "~CUSTOM:ViginBlock",
+      "~CUSTOM:ViginOre",
       "~CUSTOM:FligOre",
       "~CUSTOM:BonzOre"
     ]
@@ -330,7 +473,12 @@
       "item.lowhight_level_machine.xrin_ore": "Xrin Ore",
       "item.lowhight_level_machine.flig_dust": "Flig",
       "item.lowhight_level_machine.flig_ore": "Flig Ore",
-      "item.lowhight_level_machine.flig_block": "Block of Flig"
+      "item.lowhight_level_machine.flig_block": "Block of Flig",
+      "item.lowhight_level_machine.vigin_ingot": "Vigin",
+      "item.lowhight_level_machine.vigin_ore": "Vigin Ore",
+      "item.lowhight_level_machine.vigin_block": "Block of Vigin",
+      "item.lowhight_level_machine.selum_ingot": "Selum",
+      "item.lowhight_level_machine.selum_ore": "Selum Ore"
     }
   },
   "metadata": {

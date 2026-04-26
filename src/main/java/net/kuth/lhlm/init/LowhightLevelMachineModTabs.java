@@ -28,5 +28,10 @@ public class LowhightLevelMachineModTabs {
 				tabData.accept(LowhightLevelMachineModItems.FLIG_DUST.get());
 				tabData.accept(LowhightLevelMachineModBlocks.FLIG_ORE.get().asItem());
 				tabData.accept(LowhightLevelMachineModBlocks.FLIG_BLOCK.get().asItem());
+				tabData.accept(LowhightLevelMachineModItems.VIGIN_INGOT.get());
+				tabData.accept(LowhightLevelMachineModBlocks.VIGIN_ORE.get().asItem());
+				tabData.accept(LowhightLevelMachineModBlocks.VIGIN_BLOCK.get().asItem());
+				tabData.accept(LowhightLevelMachineModItems.SELUM_INGOT.get());
+				tabData.accept(LowhightLevelMachineModBlocks.SELUM_ORE.get().asItem());
 			}).withSearchBar().build());
 }

@@ -22,6 +22,9 @@ public class LowhightLevelMachineModBlocks {
 	public static final DeferredBlock<Block> XRIN_ORE;
 	public static final DeferredBlock<Block> FLIG_ORE;
 	public static final DeferredBlock<Block> FLIG_BLOCK;
+	public static final DeferredBlock<Block> VIGIN_ORE;
+	public static final DeferredBlock<Block> VIGIN_BLOCK;
+	public static final DeferredBlock<Block> SELUM_ORE;
 	static {
 		NAJ_ORE = register("naj_ore", NajOreBlock::new);
 		SERBO_ORE = register("serbo_ore", SerboOreBlock::new);
@@ -29,6 +32,9 @@ public class LowhightLevelMachineModBlocks {
 		XRIN_ORE = register("xrin_ore", XrinOreBlock::new);
 		FLIG_ORE = register("flig_ore", FligOreBlock::new);
 		FLIG_BLOCK = register("flig_block", FligBlockBlock::new);
+		VIGIN_ORE = register("vigin_ore", ViginOreBlock::new);
+		VIGIN_BLOCK = register("vigin_block", ViginBlockBlock::new);
+		SELUM_ORE = register("selum_ore", SelumOreBlock::new);
 	}
 
 	// Start of user code block custom blocks

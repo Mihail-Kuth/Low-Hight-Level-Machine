@@ -30,6 +30,11 @@ public class LowhightLevelMachineModItems {
 	public static final DeferredItem<Item> FLIG_DUST;
 	public static final DeferredItem<Item> FLIG_ORE;
 	public static final DeferredItem<Item> FLIG_BLOCK;
+	public static final DeferredItem<Item> VIGIN_INGOT;
+	public static final DeferredItem<Item> VIGIN_ORE;
+	public static final DeferredItem<Item> VIGIN_BLOCK;
+	public static final DeferredItem<Item> SELUM_INGOT;
+	public static final DeferredItem<Item> SELUM_ORE;
 	static {
 		TABICOITEM = register("tabicoitem", TABICOITEMItem::new);
 		NAJ = register("naj", NajItem::new);
@@ -43,6 +48,11 @@ public class LowhightLevelMachineModItems {
 		FLIG_DUST = register("flig_dust", FligDustItem::new);
 		FLIG_ORE = block(LowhightLevelMachineModBlocks.FLIG_ORE);
 		FLIG_BLOCK = block(LowhightLevelMachineModBlocks.FLIG_BLOCK);
+		VIGIN_INGOT = register("vigin_ingot", ViginIngotItem::new);
+		VIGIN_ORE = block(LowhightLevelMachineModBlocks.VIGIN_ORE);
+		VIGIN_BLOCK = block(LowhightLevelMachineModBlocks.VIGIN_BLOCK);
+		SELUM_INGOT = register("selum_ingot", SelumIngotItem::new);
+		SELUM_ORE = block(LowhightLevelMachineModBlocks.SELUM_ORE);
 	}
 
 	// Start of user code block custom items

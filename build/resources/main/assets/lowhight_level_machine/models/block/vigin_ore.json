@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lowhight_level_machine:block/vigin_ore",
+    "particle": "lowhight_level_machine:block/vigin_ore"
+  },
+  "render_type": "solid"
+}

@@ -12,5 +12,10 @@
   "item.lowhight_level_machine.xrin_ore": "Xrin Ore",
   "item.lowhight_level_machine.flig_dust": "Flig",
   "item.lowhight_level_machine.flig_ore": "Flig Ore",
-  "item.lowhight_level_machine.flig_block": "Block of Flig"
+  "item.lowhight_level_machine.flig_block": "Block of Flig",
+  "item.lowhight_level_machine.vigin_ingot": "Vigin",
+  "item.lowhight_level_machine.vigin_ore": "Vigin Ore",
+  "item.lowhight_level_machine.vigin_block": "Block of Vigin",
+  "item.lowhight_level_machine.selum_ingot": "Selum",
+  "item.lowhight_level_machine.selum_ore": "Selum Ore"
 }
