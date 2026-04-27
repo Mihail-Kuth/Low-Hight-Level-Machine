@@ -32,9 +32,15 @@ public class LowhightLevelMachineModItems {
 	public static final DeferredItem<Item> FLIG_BLOCK;
 	public static final DeferredItem<Item> VIGIN_INGOT;
 	public static final DeferredItem<Item> VIGIN_ORE;
-	public static final DeferredItem<Item> VIGIN_BLOCK;
 	public static final DeferredItem<Item> SELUM_INGOT;
 	public static final DeferredItem<Item> SELUM_ORE;
+	public static final DeferredItem<Item> SERBO_PLATE;
+	public static final DeferredItem<Item> XRIN_PLATE;
+	public static final DeferredItem<Item> BONZ_PLATE;
+	public static final DeferredItem<Item> FLIG_PLATE;
+	public static final DeferredItem<Item> VIGIN_PLATE;
+	public static final DeferredItem<Item> SELUMBONZMICROCIRCUIT;
+	public static final DeferredItem<Item> BONZCOIL;
 	static {
 		TABICOITEM = register("tabicoitem", TABICOITEMItem::new);
 		NAJ = register("naj", NajItem::new);
@@ -50,9 +56,15 @@ public class LowhightLevelMachineModItems {
 		FLIG_BLOCK = block(LowhightLevelMachineModBlocks.FLIG_BLOCK);
 		VIGIN_INGOT = register("vigin_ingot", ViginIngotItem::new);
 		VIGIN_ORE = block(LowhightLevelMachineModBlocks.VIGIN_ORE);
-		VIGIN_BLOCK = block(LowhightLevelMachineModBlocks.VIGIN_BLOCK);
 		SELUM_INGOT = register("selum_ingot", SelumIngotItem::new);
 		SELUM_ORE = block(LowhightLevelMachineModBlocks.SELUM_ORE);
+		SERBO_PLATE = register("serbo_plate", SerboPlateItem::new);
+		XRIN_PLATE = register("xrin_plate", XrinPlateItem::new);
+		BONZ_PLATE = register("bonz_plate", BonzPlateItem::new);
+		FLIG_PLATE = register("flig_plate", FligPlateItem::new);
+		VIGIN_PLATE = register("vigin_plate", ViginPlateItem::new);
+		SELUMBONZMICROCIRCUIT = register("selumbonzmicrocircuit", SelumbonzmicrocircuitItem::new);
+		BONZCOIL = register("bonzcoil", BonzcoilItem::new);
 	}
 
 	// Start of user code block custom items

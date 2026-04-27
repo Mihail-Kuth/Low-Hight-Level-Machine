@@ -17,7 +17,7 @@ Simple industrial mod, provides development opportunities in EFFICIENCY or SPEED
 
 
 1. Ore(100% complete)
-2. Basic Craft Items(0% complete)
+2. Basic Craft Items(80% complete)
 3. Machines(0% complete)
 4. Others Items(0% complete)
 

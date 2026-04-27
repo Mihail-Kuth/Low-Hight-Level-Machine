@@ -326,49 +326,6 @@
       }
     },
     {
-      "name": "ViginBlock",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vigin_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/kuth/lhlm/block/ViginBlockBlock.java",
-          "src/main/resources/assets/lowhight_level_machine/models/item/vigin_block.json",
-          "src/main/resources/data/lowhight_level_machine/loot_table/blocks/vigin_block.json",
-          "src/main/resources/assets/lowhight_level_machine/blockstates/vigin_block.json",
-          "src/main/resources/assets/lowhight_level_machine/models/block/vigin_block.json",
-          "src/main/resources/assets/lowhight_level_machine/items/vigin_block.json"
-        ]
-      }
-    },
-    {
-      "name": "ViginOreBlockRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vigin_ore_block_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/lowhight_level_machine/advancement/recipes/vigin_ore_block_recipe.json",
-          "src/main/resources/data/lowhight_level_machine/recipe/vigin_ore_block_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "ViginBlockOreRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vigin_block_ore_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/lowhight_level_machine/recipe/vigin_block_ore_recipe.json",
-          "src/main/resources/data/lowhight_level_machine/advancement/recipes/vigin_block_ore_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "ViginOreSmelting",
       "type": "recipe",
       "compiles": true,
@@ -427,6 +384,104 @@
           "src/main/resources/data/lowhight_level_machine/recipe/selum_ore_smelting.json"
         ]
       }
+    },
+    {
+      "name": "SerboPlate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "serbo_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kuth/lhlm/item/SerboPlateItem.java",
+          "src/main/resources/assets/lowhight_level_machine/items/serbo_plate.json",
+          "src/main/resources/assets/lowhight_level_machine/models/item/serbo_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "XrinPlate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xrin_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lowhight_level_machine/models/item/xrin_plate.json",
+          "src/main/resources/assets/lowhight_level_machine/items/xrin_plate.json",
+          "src/main/java/net/kuth/lhlm/item/XrinPlateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BonzPlate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonz_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lowhight_level_machine/models/item/bonz_plate.json",
+          "src/main/java/net/kuth/lhlm/item/BonzPlateItem.java",
+          "src/main/resources/assets/lowhight_level_machine/items/bonz_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "FligPlate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flig_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lowhight_level_machine/items/flig_plate.json",
+          "src/main/java/net/kuth/lhlm/item/FligPlateItem.java",
+          "src/main/resources/assets/lowhight_level_machine/models/item/flig_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "ViginPlate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vigin_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lowhight_level_machine/items/vigin_plate.json",
+          "src/main/resources/assets/lowhight_level_machine/models/item/vigin_plate.json",
+          "src/main/java/net/kuth/lhlm/item/ViginPlateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Selumbonzmicrocircuit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "selumbonzmicrocircuit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lowhight_level_machine/models/item/selumbonzmicrocircuit.json",
+          "src/main/java/net/kuth/lhlm/item/SelumbonzmicrocircuitItem.java",
+          "src/main/resources/assets/lowhight_level_machine/items/selumbonzmicrocircuit.json"
+        ]
+      }
+    },
+    {
+      "name": "Bonzcoil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonzcoil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kuth/lhlm/item/BonzcoilItem.java",
+          "src/main/resources/assets/lowhight_level_machine/models/item/bonzcoil.json",
+          "src/main/resources/assets/lowhight_level_machine/items/bonzcoil.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -434,7 +489,6 @@
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:SelumOre",
-      "~CUSTOM:ViginBlock",
       "~CUSTOM:ViginOre",
       "~CUSTOM:FligOre",
       "~CUSTOM:XrinOre",
@@ -451,7 +505,6 @@
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:SelumOre",
-      "~CUSTOM:ViginBlock",
       "~CUSTOM:ViginOre",
       "~CUSTOM:FligOre",
       "~CUSTOM:BonzOre"
@@ -476,9 +529,15 @@
       "item.lowhight_level_machine.flig_block": "Block of Flig",
       "item.lowhight_level_machine.vigin_ingot": "Vigin",
       "item.lowhight_level_machine.vigin_ore": "Vigin Ore",
-      "item.lowhight_level_machine.vigin_block": "Block of Vigin",
       "item.lowhight_level_machine.selum_ingot": "Selum",
-      "item.lowhight_level_machine.selum_ore": "Selum Ore"
+      "item.lowhight_level_machine.selum_ore": "Selum Ore",
+      "item.lowhight_level_machine.serbo_plate": "Serbo Plate",
+      "item.lowhight_level_machine.xrin_plate": "Xrin Plate",
+      "item.lowhight_level_machine.bonz_plate": "Bonz Plate",
+      "item.lowhight_level_machine.flig_plate": "Flig Plate",
+      "item.lowhight_level_machine.vigin_plate": "Vigin Plate",
+      "item.lowhight_level_machine.selumbonzmicrocircuit": "Selum-bonz microcircuit",
+      "item.lowhight_level_machine.bonzcoil": "Bonz coil"
     }
   },
   "metadata": {

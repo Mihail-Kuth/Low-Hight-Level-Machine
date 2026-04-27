@@ -23,7 +23,6 @@ public class LowhightLevelMachineModBlocks {
 	public static final DeferredBlock<Block> FLIG_ORE;
 	public static final DeferredBlock<Block> FLIG_BLOCK;
 	public static final DeferredBlock<Block> VIGIN_ORE;
-	public static final DeferredBlock<Block> VIGIN_BLOCK;
 	public static final DeferredBlock<Block> SELUM_ORE;
 	static {
 		NAJ_ORE = register("naj_ore", NajOreBlock::new);
@@ -33,7 +32,6 @@ public class LowhightLevelMachineModBlocks {
 		FLIG_ORE = register("flig_ore", FligOreBlock::new);
 		FLIG_BLOCK = register("flig_block", FligBlockBlock::new);
 		VIGIN_ORE = register("vigin_ore", ViginOreBlock::new);
-		VIGIN_BLOCK = register("vigin_block", ViginBlockBlock::new);
 		SELUM_ORE = register("selum_ore", SelumOreBlock::new);
 	}
 
