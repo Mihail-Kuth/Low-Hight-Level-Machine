@@ -1,0 +1,27 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:FligDust"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 5.0,
+    "cookingTime": 650,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:FligDust"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:FligPlate"
+    },
+    "name": "craft_flig_plate",
+    "namespace": "mod"
+  }
+}

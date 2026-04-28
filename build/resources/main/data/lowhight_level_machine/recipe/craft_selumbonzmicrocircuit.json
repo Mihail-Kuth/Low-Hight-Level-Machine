@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "acb",
+    "aab"
+  ],
+  "key": {
+    "a": "lowhight_level_machine:selum_plate",
+    "b": "lowhight_level_machine:bonz_plate",
+    "c": "lowhight_level_machine:naj"
+  },
+  "result": {
+    "id": "lowhight_level_machine:selumbonzmicrocircuit",
+    "count": 1
+  }
+}

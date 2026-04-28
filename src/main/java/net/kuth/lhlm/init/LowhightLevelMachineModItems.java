@@ -41,6 +41,7 @@ public class LowhightLevelMachineModItems {
 	public static final DeferredItem<Item> VIGIN_PLATE;
 	public static final DeferredItem<Item> SELUMBONZMICROCIRCUIT;
 	public static final DeferredItem<Item> BONZCOIL;
+	public static final DeferredItem<Item> SELUM_PLATE;
 	static {
 		TABICOITEM = register("tabicoitem", TABICOITEMItem::new);
 		NAJ = register("naj", NajItem::new);
@@ -65,6 +66,7 @@ public class LowhightLevelMachineModItems {
 		VIGIN_PLATE = register("vigin_plate", ViginPlateItem::new);
 		SELUMBONZMICROCIRCUIT = register("selumbonzmicrocircuit", SelumbonzmicrocircuitItem::new);
 		BONZCOIL = register("bonzcoil", BonzcoilItem::new);
+		SELUM_PLATE = register("selum_plate", SelumPlateItem::new);
 	}
 
 	// Start of user code block custom items

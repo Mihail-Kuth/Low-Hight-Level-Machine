@@ -39,5 +39,6 @@ public class LowhightLevelMachineModTabs {
 				tabData.accept(LowhightLevelMachineModItems.VIGIN_PLATE.get());
 				tabData.accept(LowhightLevelMachineModItems.SELUMBONZMICROCIRCUIT.get());
 				tabData.accept(LowhightLevelMachineModItems.BONZCOIL.get());
+				tabData.accept(LowhightLevelMachineModItems.SELUM_PLATE.get());
 			}).withSearchBar().build());
 }

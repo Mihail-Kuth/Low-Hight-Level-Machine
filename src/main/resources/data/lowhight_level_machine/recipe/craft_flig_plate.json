@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 650,
+  "ingredient": "lowhight_level_machine:flig_dust",
+  "result": {
+    "id": "lowhight_level_machine:flig_plate"
+  }
+}
