@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "lowhight_level_machine:bonz_ingot",
+    "minecraft:stick"
+  ],
+  "result": {
+    "id": "lowhight_level_machine:bonzcoil",
+    "count": 1
+  }
+}

@@ -581,6 +581,18 @@
           "src/main/resources/data/lowhight_level_machine/recipe/craft_selumbonzmicrocircuit.json"
         ]
       }
+    },
+    {
+      "name": "CraftBonzcoil",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_bonzcoil",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lowhight_level_machine/recipe/craft_bonzcoil.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
